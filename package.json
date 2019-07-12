@@ -1,0 +1,12 @@
+{
+  "name": "bind-root",
+  "main": "index.js",
+  "description": "bind a single js object to all underlying functions",
+  "scripts": {
+    "linter": "scripts/linter.sh"
+  },
+  "devDependencies": {
+    "eslint": "^6.0.1",
+    "eslint-plugin-json": "^1.4.0"
+  }
+}
