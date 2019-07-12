@@ -1,4 +1,4 @@
 #!/usr/bin/env bash
 
-./postinstall.sh
 npm run linter
+exec scripts/postinstall.sh
