@@ -1,7 +1,7 @@
 {
   "name": "bind-root",
   "main": "index.js",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "bind a single js object to all underlying functions",
   "license": "MIT",
   "scripts": {
