@@ -7,7 +7,8 @@
   "scripts": {
     "linter": "scripts/linter.sh",
     "postinstall": "scripts/postinstall.sh",
-    "prepublishOnly": "scripts/prepublishOnly.sh"
+    "prepublishOnly": "scripts/prepublishOnly.sh",
+    "postpublish": "scripts/postpublish.sh"
   },
   "devDependencies": {
     "eslint": "^6.0.1",
