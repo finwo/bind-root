@@ -3,9 +3,11 @@
   "main": "index.js",
   "version": "0.0.4",
   "description": "bind a single js object to all underlying functions",
+  "license": "MIT",
   "scripts": {
     "linter": "scripts/linter.sh",
-    "postinstall": "scripts/postinstall.sh"
+    "postinstall": "scripts/postinstall.sh",
+    "prepublishOnly": "scripts/prepublishOnly.sh"
   },
   "devDependencies": {
     "eslint": "^6.0.1",
@@ -15,7 +17,7 @@
     {
       "name": "Robin Bron",
       "email": "finwo@pm.me",
-      "contributions": 2
+      "contributions": 9
     }
   ]
 }
