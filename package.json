@@ -1,6 +1,7 @@
 {
   "name": "bind-root",
   "main": "index.js",
+  "version": "0.0.1",
   "description": "bind a single js object to all underlying functions",
   "scripts": {
     "linter": "scripts/linter.sh",
@@ -14,7 +15,7 @@
     {
       "name": "Robin Bron",
       "email": "finwo@pm.me",
-      "contributions": 1
+      "contributions": 2
     }
   ]
 }
