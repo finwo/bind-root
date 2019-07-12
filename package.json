@@ -6,7 +6,6 @@
   "license": "MIT",
   "scripts": {
     "linter": "scripts/linter.sh",
-    "postinstall": "scripts/postinstall.sh",
     "prepublishOnly": "scripts/prepublishOnly.sh",
     "postpublish": "scripts/postpublish.sh"
   },
@@ -18,7 +17,7 @@
     {
       "name": "Robin Bron",
       "email": "finwo@pm.me",
-      "contributions": 13
+      "contributions": 15
     }
   ]
 }
