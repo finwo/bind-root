@@ -47,7 +47,7 @@
 
         // Bind if it's an unbound function
         if (('function' === propertyType) && (!property[isBound])) {
-          ref[key] = property.bind(root);
+          ref[key] = Object.assign(property.bind(root),property);
           Object.defineProperty(ref[key],isBound,{
             enumerable  : false,
             configurable: false,
