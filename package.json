@@ -10,14 +10,14 @@
     "postpublish": "scripts/postpublish.sh"
   },
   "devDependencies": {
-    "eslint": "^6.0.1",
+    "eslint": "^6.1.0",
     "eslint-plugin-json": "^1.4.0"
   },
   "contributors": [
     {
       "name": "Robin Bron",
       "email": "finwo@pm.me",
-      "contributions": 20
+      "contributions": 22
     }
   ]
 }
