@@ -4,6 +4,12 @@
 [ "$BASH" ] || exec bash $0 "$@"
 cd "$(dirname "$0")/.."
 
+# Ensure we have assert.sh for the linter
+git submodule update --force --init --recursive
+
+# We need eslint for the linter
+npm install
+
 # Can't have invalid code in npmjs
 npm run linter
 
