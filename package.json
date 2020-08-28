@@ -15,6 +15,6 @@
   "homepage": "https://github.com/finwo/bind-root#readme",
   "devDependencies": {
     "eslint": "^6.1.0",
-    "eslint-plugin-json": "^1.4.0"
+    "eslint-plugin-json": "^2.1.2"
   }
 }
