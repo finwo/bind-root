@@ -7,6 +7,12 @@
   "scripts": {
     "postpublish": "PACKAGE_VERSION=$(cat package.json | grep \\\"version\\\" | head -1 | awk -F: '{print $2}' | sed 's/[\",]//g' | tr -d '[[:space:]]') && npm deprecate \"bind-root@<${PACKAGE_VERSION}\" \"Rolling release, please update to ${PACKAGE_VERSION}\""
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/finwo/bind-root.git"
+  },
+  "author": "Robin Bron <robin@finwo.nl>",
+  "homepage": "https://github.com/finwo/bind-root#readme",
   "devDependencies": {
     "eslint": "^6.1.0",
     "eslint-plugin-json": "^1.4.0"
