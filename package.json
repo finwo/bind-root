@@ -5,19 +5,10 @@
   "description": "bind a single js object to all underlying functions",
   "license": "MIT",
   "scripts": {
-    "linter": "scripts/linter.sh",
-    "prepublishOnly": "scripts/prepublishOnly.sh",
-    "postpublish": "scripts/postpublish.sh"
+    "postpublish": "PACKAGE_VERSION=$(cat package.json | grep \\\"version\\\" | head -1 | awk -F: '{print $2}' | sed 's/[\",]//g' | tr -d '[[:space:]]') && npm deprecate \"bind-root@<${PACKAGE_VERSION}\" \"Rolling release, please update to ${PACKAGE_VERSION}\""
   },
   "devDependencies": {
     "eslint": "^6.1.0",
     "eslint-plugin-json": "^1.4.0"
-  },
-  "contributors": [
-    {
-      "name": "Robin Bron",
-      "email": "finwo@pm.me",
-      "contributions": 22
-    }
-  ]
+  }
 }
